@@ -6,6 +6,8 @@
 ## Description
 Simple currency converter based on JS. 
 
+Check it out here ->> https://speecter.github.io/Currency-converter-v1/
+
 Features basic currencies:
 - GBP
 - CHF
