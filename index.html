@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>currency-converter</title>
+    <link rel="icon" href="images/icon.png">
+    <meta property="og:image" content="images/share.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/form.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <script defer src="js/script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <form class="form js-form">
+            <fieldset class="form__fieldset">
+                <legend class="form__legend"><strong>Currency Converter v1.0</strong></legend>
+                <p>
+                    <label>
+                        <span class="form__labelText">
+                            Kwota w PLN:*
+                        </span>
+                        <input class="js-form__PLN form__fieldsetInput" type="number" step="0.01" min="0.01"
+                            placeholder="Wpisz kwotę do przeliczenia" autofocus required>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <span class="form__labelText">
+                            Waluta:
+                        </span>
+                        <select class="js-form_select form__fieldsetInput">
+                            <option value="EUR" selected>EUR - Euro</option>
+                            <option value="USD">USD - Dolar amerykański</option>
+                            <option value="GBP">GBP - Funt brytyjski</option>
+                            <option value="CHF">CHF - Frank szwajcarski</option>
+                        </select>
+                    </label>
+                </p>
+                <p>
+                    <button class="form__button"><strong>Przelicz</strong></button>
+                Po przeliczeniu:
+                <p class="form__result">
+                    <strong class="result js-result">Wynik przewalutowania</strong>
+                </p>
+            </fieldset>
+        </form>
+    </div>
+</body>
+
+</html>
