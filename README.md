@@ -1,9 +1,9 @@
 # Currency-converter-v1
 
-##Showcase
+## Showcase
 ![HowToUse](https://github.com/Speecter/Currency-converter-v1/blob/master/images/demo.gif)
 
-##Description
+## Description
 Simple currency converter based on JS. 
 
 Features basic currencies:
